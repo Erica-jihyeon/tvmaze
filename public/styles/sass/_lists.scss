@@ -1,0 +1,64 @@
+@import "global_val";
+
+.first_screen {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+.media {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: $primary-font;
+
+  img {
+    margin: 40px;
+  }
+}
+
+.media-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  width: 100%;
+
+  .media_title {
+    margin: 10px;
+    margin-left: 0px;
+  }
+
+  .media_title h5 {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0px;
+  }
+
+  .media_title p {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 0px;
+  }
+
+  span {
+    background-color: rgb(63, 133, 133);
+    color: beige;
+    padding: 5px;
+    margin: 2px;
+    background-size: auto;
+    border-radius: 12px;
+    font-size: 1.2rem;
+  }
+}
+
+.media-info {
+  padding: 0px;
+  background-color: #ecf5e3db;
+  border-radius: 10px;
+
+  li {
+    font-size: 1.4rem;
+    padding: 10px;
+    list-style: none;
+    color: #c64f4fcf;
+  }
+}

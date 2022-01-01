@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="/styles/css/styles.css" type="text/css" />
+
+  <!-- External JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- App JS -->
+  <script type="text/javascript" src="/scripts/client.js"></script>
+</head>
+<body>
+  <div class="search">
+    <form id="search_frm">
+      <label for="search_text">Find your favorite TV shows!</label>
+      <div class="search_wrapper">
+        <input type="search" name="movie_name" id="search_text" placeholder="What are you looking for?" />
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </form>
+  </div>
+
+  <main>
+    <section>
+      <ul class="list-unstyled" id="search-results">
+
+        <!-- list items here -->
+        <li class="media">
+          <div class="first_screen"><img src="/img/main.png" /></div>
+          <!-- <img src="/img/no-img.png">
+          <div class="media-body">
+            <h5 id="media-title">movie name<span>genre1</span><span>genre2222</span></h5>
+            <ul class="media-info">
+              <li>Premiered: </li>
+              <li>Rating: </li>
+              <li>Runtime: </li>
+            </ul>
+          </div> -->
+        </li>
+      </ul>
+    </section>
+    <button id='scroll_button'><i class="fas fa-angle-double-up fa-2x"></i></button>
+  </main>
+  
+</body>
+</html>
